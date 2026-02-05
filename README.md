@@ -24,6 +24,8 @@ React2Shell is a powerful, interactive shell wrapper designed to exploit the Rea
 <img width="2456" height="1448" alt="1" src="https://github.com/user-attachments/assets/740b882a-709f-4b6c-b2aa-5dd142309af4" />
 <img width="1566" height="592" alt="2" src="https://github.com/user-attachments/assets/e73ca3de-3a3b-4d4b-bc9f-d81e15da5b09" />
 
+# React2Shell-Scanner
+
 ## 🛠️ Installation
 
 ```bash
@@ -36,8 +38,28 @@ pip install requests
 
 ### Basic Usage
 
+**Linux/macOS:**
 ```bash
 python3 react2shell.py -u https://target-nextjs-site.com/
+```
+
+**Windows:**
+```bash
+python react2shell.py -u https://target-nextjs-site.com/
+```
+
+### Advanced Usage
+
+Run with verified root persistence strategy detection:
+
+**Linux/macOS:**
+```bash
+python3 react2shell.py -u https://target.com/
+```
+
+**Windows:**
+```bash
+python react2shell.py -u https://target.com/
 ```
 
 if you use Windows please replace python3 -> python in command
@@ -47,7 +69,7 @@ if you use Windows please replace python3 -> python in command
 Run with verified root persistence strategy detection:
 
 ```bash
-python3 react2shell.py -u https://target.com/
+python react2shell.py -u https://target.com/
 ```
 
 ## 🎮 Command Interface
